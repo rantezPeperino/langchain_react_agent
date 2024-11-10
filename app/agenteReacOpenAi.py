@@ -22,7 +22,7 @@ def get_user_info(name: str) -> str:
     #     if user['name'].lower() == name.lower():
     #         return str(user)
     
-    return users #"Usuario no encontrado."
+    return users #"Usuario no encontrado." se comenta para que el llm busque en toda la lista.
 
 # Crear el agente REACT
 tools = [get_user_info]
