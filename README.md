@@ -1,0 +1,5 @@
+-Ejemplo de la creacion de una tool cutom.
+-Se usa una api de ejemplo con datos de 10 contactos.
+-Al ejecutar se pasa en el prompt el nombre del contacto y los datos a recuperar.
+-El template tiene un esquema de pensamiento de resolucion para el agente.
+-Llama a la api y despues busca en la lista.
